@@ -1,0 +1,34 @@
+git init ---- to initialize a folder
+
+git status----- to know the status of the folder
+
+git add filename---- to track a file and to stage for commit
+
+git commit -m "message to show"---- to create a new version
+
+git log---- to see the commit history
+
+git remote add origin link address ----- to link the folder with the git hub repository
+
+git push -u origin master----- to keep the master branch committed files in the origin repository
+						 ----- first time use -u other wise just use git push
+
+git pull origin master-----to import the file from the git hub repository
+
+
+git diff HEAD----- to find out the difference between the last commit and the current modified file  
+
+git diff --staged -------to find out the difference between the unstaged file and staged file
+
+git reset filename------to make the staged file unstaged
+
+git checkout -- filename------- to undo the changes
+
+git branch branchname-----to create a new branch
+
+git checkout branchname-----to go to the new created branch
+
+git branch -d branchname-----to delete a branch
+
+git merge branchname-----to add the new branch changes with the master branch
+
